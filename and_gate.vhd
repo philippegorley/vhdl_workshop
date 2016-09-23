@@ -11,4 +11,4 @@ end and_gate;
 architecture rtl of and_gate is
 begin
    q <= a and b;
-end architecture;
+end and_gate;

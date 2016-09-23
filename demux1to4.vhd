@@ -15,7 +15,6 @@ architecture arch of demux1to4 is
 begin
 
 -- if i = 0, set to 0000
-
 i_sel <= i & sel(1) & sel(0);
 f <= "0001" when i_sel = "100" else
      "0010" when i_sel = "101" else

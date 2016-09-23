@@ -17,7 +17,7 @@ begin
 case sel is
     when '0' => q <= i0;
     when '1' => q <= i1;
-    when others => q <= 'Z';
+    when others => null;
 end case;
 end process;
 
