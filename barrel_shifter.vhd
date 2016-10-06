@@ -30,9 +30,9 @@ architecture func of barrel_shifter is
     ) return std_logic_vector is
     begin
         if (sh_right = '1') then
-            return std_logic_vector((SHR(unsigned(bs_in_vec), unsigned(cnt))));
+            return std_logic_vector(SHR(unsigned(bs_in_vec), unsigned(cnt)));
         else
-            return std_logic_vector((SHL(unsigned(bs_in_vec), unsigned(cnt))));
+            return std_logic_vector(SHL(unsigned(bs_in_vec), unsigned(cnt)));
         end if;
     end function;
 
