@@ -12,14 +12,6 @@ entity barrel_shifter is
     );
 end entity;
 
--- using mux (fml)
--- architecture struct of barrel_shifter is
--- begin
---
---
---
--- end architecture;
-
 -- using functions
 architecture func of barrel_shifter is
     -- shift left/right
