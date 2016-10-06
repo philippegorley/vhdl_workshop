@@ -15,7 +15,7 @@ Atelier pour introduire le VHDL aux étudiant.es en génie électrique
 ## Comment utiliser (avec GHDL et GtkWave)
 
 Exemple:
-`ghdl -a and_gate.vhd tb_and.vhd`
-`ghdl -e tb_and`
-`ghdl -r tb_and --vcd=tb.vcd`
+`ghdl -a and_gate.vhd tb_and.vhd`  
+`ghdl -e tb_and`  
+`ghdl -r tb_and --vcd=tb.vcd`  
 `gtkwave -S render.tcl tb.vcd`
